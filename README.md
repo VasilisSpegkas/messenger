@@ -1,5 +1,6 @@
 # messenger
-Messenger console application using JAVA-JRE 1.8 and mySQL-connector 8.0.13
+--Messenger console application using JAVA-JRE 1.8 and mySQL workbench 8.
+--mySQL-connector 8.0.13.jar is needed to be added inside the projects library 'build path'.
 
 This application was created to demonstrate how to perform simple C.R.U.D. functions in JAVA using a mySQL schema and allow users to 
 create Log files to store their messages.
