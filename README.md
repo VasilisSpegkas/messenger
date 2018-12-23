@@ -1,8 +1,13 @@
 # messenger
---Messenger console application using JAVA-JRE 1.8 and mySQL workbench 8.
---mySQL-connector 8.0.13.jar is needed to be added inside the projects library 'build path'.
---Open the messenger.sql using mySQL workbench to create the schema needed for the application. Its usefull to know that inside the project a database schema is set to be created if does not already exist inside mySQL.
---This project connects to the database by using the default mySQL connection instance.Before running make sure the following information located inside the messenger-->src-->messenger.dao-->SqlMethods.class is correct in order to connect. You will most likely need to change the PASSWORD value.
+Messenger console application using JAVA-JRE 1.8 and mySQL workbench 8.
+
+***HOW TO RUN(for newbies).***
+mySQL-connector 8.0.13.jar is needed to be added inside the projects library 'build path'. Extract it and save at your Desktop.
+Find the mySQL-connector 8.0.13.jar file and add it inside the build path of your project using your IDE to allow connection to the database.
+
+Open the messenger.sql script using mySQL workbench to create the schema needed for the application. (Its usefull to know that inside the project a database schema is set to be created if does not already exist inside mySQL).
+
+This project connects to the database by using the default mySQL connection instance. Before running make sure the following information located inside the messenger-->src-->messenger.dao-->SqlMethods.class is correct in order to connect. You will most likely need to change the PASSWORD value. Open SqlMethods.class with your IDE to change the values if needed.
   HOST = "localhost";
 	PORT = "3306";
 	USER = "root";
